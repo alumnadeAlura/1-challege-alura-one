@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR DE TEXTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imagenes/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+        <div>
+            <div class="encabezado">
+                <img  src="./IMAGENES/a vector.png" class="vector">
+                <h1>ENCRIPTADOR DE TEXTO</h1>
+            </div>
+            <h6><img class="elemento" src="./IMAGENES/Vector.png">"Solo letras minúsculas y sin acentos</h6>  
+        <main>
+            <section class="rectangulo1">
+                <textarea class="input-text" cols="70" rows="2" placeholder="Ingresar Texto aquí"></textarea><br>
+                <div class="botones">
+                    <input type="button" class="boton1" onclick="botonEncriptar()" value="ENCRIPTAR">
+                    <input type="button" class="boton2" onclick="botonDesencriptar()" value="DESENCRIPTAR">
+                </div>
+            </section>
+
+            <section class="rectangulo2">
+                <textarea class="input-textarea" cols="30" rows="10" placeholder="Aquí su Mensaje"></textarea>
+            </section>
+        </div>
+        </main>
+    </body>
+        <script src="script.js"></script>
+</html>

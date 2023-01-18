@@ -1,0 +1,87 @@
+*{  
+	font-family: 'Encode Sans Condensed', sans-serif;
+    background-image: url(./imagenes/fondo\ de\ pantalla.jpg);
+	background-repeat: none;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+ body{
+   
+	width:1260px;
+	margin-top: 0rem;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+}
+.vector{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+h1{
+	font-size: 2em;
+    font-weight: bold;
+    background: black;
+    color: antiquewhite;
+    border-radius: 1rem;
+    margin: 2rem 28rem 1rem 28rem;
+    text-align: center;
+}
+h6{
+    font-size: 1rem;
+    margin: 1rem 58rem 1rem 4rem;
+    color: cornsilk;
+    font-weight: bold;
+    background: black;
+    border-radius: 1rem;
+   
+
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.input-text{
+    border:0;
+    color: antiquewhite;
+    font-size: x-large;
+    height: 229px;
+    width: 670px;
+    
+}
+.botones{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+.boton1{
+    border-radius: 1rem;
+    width: 150px;
+    height: 3rem;
+    font-size: larger;
+    font-weight: 900;
+    color: bisque;
+    background: darkblue;
+}
+.boton2{
+    border-radius: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    background: maroon;
+}
+
+.input-textarea{font-size: x-large;
+    font-weight: 900;
+    background: linear-gradient(45deg, green, transparent);
+    color: black;
+    width: 385px;
+    height: 306px;
+    
+}
+
